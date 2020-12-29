@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: cadetblue;
+    background: url(images/travel.gif);
+    background-size: cover;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-color: floralwhite;
+    padding: 18px;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+nav li{
+    display: inline;
+    padding: 12px;
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+    color: mediumblue;
+    font-family: fantasy;
+    font-size: 1.3rem;
+}
+header h1{
+    margin: 0;
+    color: rgb(96, 90, 102);
+    font-weight: bolder;
+
+}
+.head{
+    float: left;
+}
+nav{
+    float:right;
+    margin-top: 5px;
+}
+showcase h2{
+    text-align: center;
+    color: chartreuse;
+    font-size: 2.7rem;
+    margin-top: 13%;
+}
+showcase p{
+    text-align: center;
+    color: chartreuse;
+    font-family: cursive;
+    font-size: 1.5rem;
+} /* 1rem = 16px */
+.btn1{
+    margin-left: 40%;
+    padding: 0.7rem;
+    color: honeydew;
+    background-color: rgb(5, 18, 77);
+    border: none;
+    border-radius: 1.2rem;
+    margin-top: 2%;
+}
+.btn2{
+    padding: 0.7rem;
+    color:white;
+    background-color: rgb(15, 7, 65);
+    border: none;
+    border-radius: 1.7rem;
+    margin-left: 2%;
+}
+footer{
+    background-color: lightgray;
+    padding: 0.7rem;
+    margin-top: 14%;
+    font-family: cursive;
+}
+.lefty{
+    float: left;
+    width: 10%;
+
+}
+.righty{
+    float: right;
+    width: 60%;
+    margin-top: 2%;
+}
+.righty input{
+    margin-left: 0.1rem;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+    width: 220px;
+}
+.btn3{
+    padding: 7px 12px;
+    color: rgb(8, 8, 8);
+    background-color: rgb(77, 139, 77);
+     float: right;
+     border: none;
+     text-decoration: none;
+     font-family:  Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+ 
